@@ -1,0 +1,27 @@
+button {
+	background-color: rgb(193,146,122);
+	border-radius: 0px;
+	min-height: 56px;
+	padding-left: 32px;
+	padding-right: 32px;
+	border-style: none;
+	color: rgb(0,0,0);
+	text-shadow: none;
+	font-size: 28pt;
+	font-family: 'Gudea','Georgia',serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	overflow-wrap: break-word;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.container img {
+	width: 95%;
+	height: auto;
+}
+.hidden {
+	display: none;
+}
