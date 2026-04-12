@@ -11,5 +11,6 @@ stop_test :
 upload :
 	aws s3 sync --exclude '*' --include '*.html' --content-type 'text/html' --cache-control max-age=${MAX_AGE} . s3://${BUCKET}
 	aws s3 sync --exclude '*' --include '*.css' --content-type 'text/css' --cache-control max-age=${MAX_AGE} . s3://${BUCKET}
+	aws s3 sync --exclude '*' --include '*.js' --content-type 'text/javascript' --cache-control max-age=${MAX_AGE} . s3://${BUCKET}
 	aws s3 sync --exclude '*' --include 'images/*.png' --content-type 'image/png' --cache-control max-age=${MAX_AGE} . s3://${BUCKET}
 
